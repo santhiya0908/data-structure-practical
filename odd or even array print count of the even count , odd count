@@ -1,0 +1,27 @@
+int main()
+{
+	int n,a[40],i,e_count,o_count,e_sum=0,o_sum=0;
+	printf("enter the number");
+	scanf("%d",&n);
+	for(i=0;i<n;i++)#include<stdio.h>
+
+	{
+		scanf("%d",&a[i]);
+	}
+	for(i=0;i<n;i++)
+	{
+		if(a[i]%2==0){
+		    e_count++;
+			e_sum+=a[i];
+		}
+	    else{
+	        o_count++;
+	         o_sum+=a[i];
+	     }
+}
+printf("e_count is=%d\n",e_count);
+printf("o_count is=%d\n",o_count);
+printf("sum=%d\n",e_sum);
+printf("sum=%d\n",o_sum);
+return 0;
+}
